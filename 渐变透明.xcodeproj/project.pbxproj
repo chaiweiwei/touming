@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC78CB321AB16BF200F26461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78CB311AB16BF200F26461 /* main.m */; };
+		FC78CB351AB16BF200F26461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78CB341AB16BF200F26461 /* AppDelegate.m */; };
+		FC78CB381AB16BF200F26461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78CB371AB16BF200F26461 /* ViewController.m */; };
+		FC78CB3B1AB16BF200F26461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC78CB391AB16BF200F26461 /* Main.storyboard */; };
+		FC78CB3D1AB16BF200F26461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC78CB3C1AB16BF200F26461 /* Images.xcassets */; };
+		FC78CB401AB16BF200F26461 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC78CB3E1AB16BF200F26461 /* LaunchScreen.xib */; };
+		FC78CB4C1AB16BF200F26461 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC78CB4B1AB16BF200F26461 /* ____Tests.m */; };
+		FC78CB561AB16C9400F26461 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC78CB551AB16C9400F26461 /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC78CB461AB16BF200F26461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC78CB241AB16BF200F26461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC78CB2B1AB16BF200F26461;
+			remoteInfo = "渐变透明";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC78CB2C1AB16BF200F26461 /* 渐变透明.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "渐变透明.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC78CB301AB16BF200F26461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC78CB311AB16BF200F26461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC78CB331AB16BF200F26461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC78CB341AB16BF200F26461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC78CB361AB16BF200F26461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC78CB371AB16BF200F26461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC78CB3A1AB16BF200F26461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC78CB3C1AB16BF200F26461 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC78CB3F1AB16BF200F26461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC78CB451AB16BF200F26461 /* 渐变透明Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "渐变透明Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC78CB4A1AB16BF200F26461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC78CB4B1AB16BF200F26461 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		FC78CB551AB16C9400F26461 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC78CB291AB16BF200F26461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC78CB421AB16BF200F26461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC78CB231AB16BF200F26461 = {
+			isa = PBXGroup;
+			children = (
+				FC78CB2E1AB16BF200F26461 /* 渐变透明 */,
+				FC78CB481AB16BF200F26461 /* 渐变透明Tests */,
+				FC78CB2D1AB16BF200F26461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC78CB2D1AB16BF200F26461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CB2C1AB16BF200F26461 /* 渐变透明.app */,
+				FC78CB451AB16BF200F26461 /* 渐变透明Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC78CB2E1AB16BF200F26461 /* 渐变透明 */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CB331AB16BF200F26461 /* AppDelegate.h */,
+				FC78CB341AB16BF200F26461 /* AppDelegate.m */,
+				FC78CB361AB16BF200F26461 /* ViewController.h */,
+				FC78CB371AB16BF200F26461 /* ViewController.m */,
+				FC78CB391AB16BF200F26461 /* Main.storyboard */,
+				FC78CB551AB16C9400F26461 /* 1.png */,
+				FC78CB3C1AB16BF200F26461 /* Images.xcassets */,
+				FC78CB3E1AB16BF200F26461 /* LaunchScreen.xib */,
+				FC78CB2F1AB16BF200F26461 /* Supporting Files */,
+			);
+			path = "渐变透明";
+			sourceTree = "<group>";
+		};
+		FC78CB2F1AB16BF200F26461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CB301AB16BF200F26461 /* Info.plist */,
+				FC78CB311AB16BF200F26461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC78CB481AB16BF200F26461 /* 渐变透明Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CB4B1AB16BF200F26461 /* ____Tests.m */,
+				FC78CB491AB16BF200F26461 /* Supporting Files */,
+			);
+			path = "渐变透明Tests";
+			sourceTree = "<group>";
+		};
+		FC78CB491AB16BF200F26461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC78CB4A1AB16BF200F26461 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC78CB2B1AB16BF200F26461 /* 渐变透明 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC78CB4F1AB16BF200F26461 /* Build configuration list for PBXNativeTarget "渐变透明" */;
+			buildPhases = (
+				FC78CB281AB16BF200F26461 /* Sources */,
+				FC78CB291AB16BF200F26461 /* Frameworks */,
+				FC78CB2A1AB16BF200F26461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "渐变透明";
+			productName = "渐变透明";
+			productReference = FC78CB2C1AB16BF200F26461 /* 渐变透明.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC78CB441AB16BF200F26461 /* 渐变透明Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC78CB521AB16BF200F26461 /* Build configuration list for PBXNativeTarget "渐变透明Tests" */;
+			buildPhases = (
+				FC78CB411AB16BF200F26461 /* Sources */,
+				FC78CB421AB16BF200F26461 /* Frameworks */,
+				FC78CB431AB16BF200F26461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC78CB471AB16BF200F26461 /* PBXTargetDependency */,
+			);
+			name = "渐变透明Tests";
+			productName = "渐变透明Tests";
+			productReference = FC78CB451AB16BF200F26461 /* 渐变透明Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC78CB241AB16BF200F26461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "求攻略";
+				TargetAttributes = {
+					FC78CB2B1AB16BF200F26461 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FC78CB441AB16BF200F26461 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FC78CB2B1AB16BF200F26461;
+					};
+				};
+			};
+			buildConfigurationList = FC78CB271AB16BF200F26461 /* Build configuration list for PBXProject "渐变透明" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC78CB231AB16BF200F26461;
+			productRefGroup = FC78CB2D1AB16BF200F26461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC78CB2B1AB16BF200F26461 /* 渐变透明 */,
+				FC78CB441AB16BF200F26461 /* 渐变透明Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC78CB2A1AB16BF200F26461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC78CB3B1AB16BF200F26461 /* Main.storyboard in Resources */,
+				FC78CB401AB16BF200F26461 /* LaunchScreen.xib in Resources */,
+				FC78CB561AB16C9400F26461 /* 1.png in Resources */,
+				FC78CB3D1AB16BF200F26461 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC78CB431AB16BF200F26461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC78CB281AB16BF200F26461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC78CB381AB16BF200F26461 /* ViewController.m in Sources */,
+				FC78CB351AB16BF200F26461 /* AppDelegate.m in Sources */,
+				FC78CB321AB16BF200F26461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC78CB411AB16BF200F26461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC78CB4C1AB16BF200F26461 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC78CB471AB16BF200F26461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC78CB2B1AB16BF200F26461 /* 渐变透明 */;
+			targetProxy = FC78CB461AB16BF200F26461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC78CB391AB16BF200F26461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC78CB3A1AB16BF200F26461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC78CB3E1AB16BF200F26461 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC78CB3F1AB16BF200F26461 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC78CB4D1AB16BF200F26461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC78CB4E1AB16BF200F26461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC78CB501AB16BF200F26461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "渐变透明/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC78CB511AB16BF200F26461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "渐变透明/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC78CB531AB16BF200F26461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "渐变透明Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/渐变透明.app/渐变透明";
+			};
+			name = Debug;
+		};
+		FC78CB541AB16BF200F26461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "渐变透明Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/渐变透明.app/渐变透明";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC78CB271AB16BF200F26461 /* Build configuration list for PBXProject "渐变透明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC78CB4D1AB16BF200F26461 /* Debug */,
+				FC78CB4E1AB16BF200F26461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC78CB4F1AB16BF200F26461 /* Build configuration list for PBXNativeTarget "渐变透明" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC78CB501AB16BF200F26461 /* Debug */,
+				FC78CB511AB16BF200F26461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC78CB521AB16BF200F26461 /* Build configuration list for PBXNativeTarget "渐变透明Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC78CB531AB16BF200F26461 /* Debug */,
+				FC78CB541AB16BF200F26461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC78CB241AB16BF200F26461 /* Project object */;
+}
